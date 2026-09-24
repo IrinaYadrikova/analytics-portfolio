@@ -1,14 +1,14 @@
 import Link from "next/link"
 
 const kpis = [
-  "Meetings vs Target",
-  "New Business Pipeline",
-  "Closed Won",
-  "Pipeline Coverage",
-  "Conversion Rate",
-  "Renewals",
-  "Opportunities Created",
-  "Prior-Year Comparison",
+  "Activity vs Target",
+  "Pipeline Value ",
+  "Sales Outcome",
+  "Target Coverage ",
+  "Conversion Performance",
+  "Existing Business",
+  "New Opportunities",
+  "Historical Comparison"
 ]
 
 const technologies = [
@@ -64,19 +64,21 @@ export default function InternationalSalesCaseStudy() {
           )}
         </div>
 
-        {/* Dashboard placeholder */}
-        <div className="mt-12 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-10">
-          <div className="flex min-h-[320px] items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-[#f8fbfd]">
-            <div className="text-center">
-              <p className="font-serif text-2xl font-semibold">
-                Commercial Performance Dashboard
-              </p>
-              <p className="mt-2 text-sm text-slate-500">
-                Anonymised dashboard visual will be added here
-              </p>
-            </div>
-          </div>
-        </div>
+{/* Anonymised dashboard */}
+
+<div className="mt-12 overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-sm md:p-5">
+
+  <img
+
+    src="/international-sales-dashboard.png"
+
+    alt="Anonymised sales performance Power BI dashboard showing commercial KPIs, targets, trends and team comparisons"
+
+    className="h-auto w-full rounded-2xl"
+
+  />
+
+</div>
 
       </section>
 
@@ -86,7 +88,7 @@ export default function InternationalSalesCaseStudy() {
 
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#29aeb5]">
-              01
+          
             </p>
             <h2 className="mt-3 font-serif text-3xl font-semibold">
               Business Challenge
@@ -109,7 +111,7 @@ export default function InternationalSalesCaseStudy() {
 
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#29aeb5]">
-              02 · My Role
+              My Role
             </p>
 
             <h2 className="mt-3 font-serif text-3xl font-semibold">
@@ -147,53 +149,128 @@ export default function InternationalSalesCaseStudy() {
         </div>
       </section>
 
-      {/* DYNAMIC KPI */}
+          {/* FLEXIBLE PERFORMANCE ANALYSIS */}
+
       <section className="bg-[#eaf4fa]">
+
         <div className="mx-auto max-w-6xl px-6 py-16 md:px-10 md:py-20">
 
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#29aeb5]">
+
             Key Feature
+
           </p>
 
           <div className="mt-4 grid gap-10 md:grid-cols-2 md:items-center">
 
+            {/* LEFT SIDE */}
+
             <div>
+
               <h2 className="font-serif text-3xl font-semibold md:text-4xl">
-                Dynamic KPI Analysis
+
+                Flexible Performance Analysis
+
               </h2>
 
               <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-                A KPI selector dynamically changes the measure displayed
-                across the analytical visuals, allowing multiple commercial
-                KPIs to be analysed through the same reporting page.
+
+                The reporting solution was designed to let management analyse
+
+                commercial performance across different time periods and
+
+                business dimensions. Dynamic measures and filter context
+
+                supported multiple analytical views without duplicating
+
+                reporting pages.
+
               </p>
+
             </div>
+
+            {/* RIGHT SIDE */}
 
             <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
 
+              {/* TIME PERIOD */}
+
               <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
-                Selected KPI
+
+                Time Period
+
               </p>
 
-              <div className="mt-3 rounded-xl border border-slate-200 bg-[#f8fbfd] px-5 py-4 font-semibold">
-                Closed Won ↓
+              <div className="mt-4 grid grid-cols-4 gap-2 text-center text-sm">
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Month</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Quarter</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">YTD</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">FY</div>
+
               </div>
 
-              <div className="my-6 text-center text-2xl text-[#29aeb5]">
+              <div className="my-5 text-center text-2xl text-[#29aeb5]">
+
                 ↓
+
               </div>
 
-              <div className="grid grid-cols-2 gap-3 text-center text-sm">
-                <div className="rounded-xl bg-[#f4f9fc] p-4">KPI Cards</div>
-                <div className="rounded-xl bg-[#f4f9fc] p-4">Trend</div>
-                <div className="rounded-xl bg-[#f4f9fc] p-4">Team</div>
-                <div className="rounded-xl bg-[#f4f9fc] p-4">Product</div>
+              {/* PERFORMANCE */}
+
+              <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+
+                Performance View
+
+              </p>
+
+              <div className="mt-4 grid grid-cols-3 gap-2 text-center text-sm">
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Actual vs Target</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Conversion Performance</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">
+
+                  Historical Comparison
+
+                </div>
+
+              </div>
+
+              <div className="my-5 text-center text-2xl text-[#29aeb5]">
+
+                ↓
+
+              </div>
+
+              {/* ANALYSIS */}
+
+              <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+
+                Analysis
+
+              </p>
+
+              <div className="mt-4 grid grid-cols-3 gap-2 text-center text-sm">
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Team</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Product</div>
+
+                <div className="rounded-xl bg-[#f4f9fc] p-3">Market</div>
+
               </div>
 
             </div>
 
           </div>
+
         </div>
+
       </section>
 
       {/* SOLUTION + KPIs */}
