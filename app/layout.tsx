@@ -16,7 +16,7 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: 'Irina Yadrikova — Data Analyst | BI & Analytics',
+  title: 'Irina Yadrikova — DATA ANALYST | BI · ESG · AUTOMATION',
   description:
     'UK-based Data Analyst specialising in Business Intelligence, Power BI, SQL, data modelling and analytics automation. Turning fragmented data into reliable reporting and actionable KPIs.',
   generator: 'v0.app',

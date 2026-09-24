@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     slug: "international-sales-kpi-reporting",
     title: "International Sales Performance & KPI Reporting",
-    type: "Commercial Client Project",
+    type: "INTERNATIONAL SALES · COMMERCIAL PROJECT",
     technology: ["Power BI", "DAX", "Data Modelling", "Sales Analytics"],
     description:
       "A centralised sales reporting solution designed to standardise KPIs and provide consistent management visibility across international teams, products and markets.",
@@ -35,7 +35,7 @@ export const projects: Project[] = [
   {
     slug: "manufacturing-sales-customer-analytics",
     title: "Manufacturing Sales & Customer Analytics",
-    type: "Commercial Client Project · UK Manufacturing",
+    type: "UK MANUFACTURING · COMMERCIAL PROJECT",
     technology: ["SQL", "Zoho Analytics", "Excel", "Customer Analytics"],
     description:
       "A multi-phase analytics transformation covering management reporting, enquiry conversion, customer behaviour, sales performance and commercial forecasting.",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     slug: "automated-kpi-alerts",
     title: "Sales Performance & Automated KPI Alerts",
-    type: "Analytics Automation Project",
+    type: "SALES AUTOMATION · COMMERCIAL PROJECT",
     technology: ["Power BI", "Power Automate", "Slack", "DAX"],
     description:
       "An automated performance monitoring solution that evaluates individual sales KPIs and sends personalised notifications alongside a management summary.",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
   },
   {
     slug: "environmental-esg-analytics",
-    title: "Environmental & ESG Analytics",
+    title: "ENVIRONMENTAL & ESG · PORTFOLIO PROJECT",
     type: "Specialist Analytics",
     technology: ["Power BI", "SQL", "Environmental Data", "ESG"],
     description:

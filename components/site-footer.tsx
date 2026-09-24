@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div>
           <p className="font-display text-lg font-semibold text-foreground">Irina Yadrikova</p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Data Analyst | Business Intelligence &amp; Analytics
+            Data Analyst | Business Intelligence &amp; ESG Analytics
           </p>
           <p className="mt-1 text-sm text-muted-foreground">London, UK</p>
         </div>

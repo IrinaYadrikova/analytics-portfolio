@@ -26,8 +26,7 @@ export function Contact() {
           Have a data problem to solve?
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
-          I&apos;m available for freelance analytics projects, BI development and collaboration with analytics
-          consultancies.
+          I am open to Data Analyst and BI opportunities, freelance analytics projects, and collaboration with organisations looking to turn their data into reliable reporting and better business decisions.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
