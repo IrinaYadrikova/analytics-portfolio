@@ -15,7 +15,7 @@ export function SiteNav() {
             Irina Yadrikova
           </span>
           <span className="text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
-            Data Analyst | BI &amp; Analytics
+            Data Analyst | BI · ESG · Automation
           </span>
         </a>
 
