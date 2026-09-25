@@ -45,7 +45,7 @@ export const projects: Project[] = [
     slug: "automated-kpi-alerts",
     title: "Sales Performance & Automated KPI Alerts",
     type: "SALES AUTOMATION · COMMERCIAL PROJECT",
-    technology: ["Power BI", "Power Automate", "Slack", "DAX"],
+    
     description:
       "An automated performance monitoring solution that evaluates individual sales KPIs and sends personalised notifications alongside a management summary.",
     cta: "View Case Study",
