@@ -20,7 +20,7 @@ export function ProjectCard({ project }: { project: Project }) {
       )}
 
       <div className="mt-5 flex flex-wrap gap-2">
-        {project.technology.map((tech) => (
+        {(project.technology ?? []).map((tech) => (
           <span
             key={tech}
             className="rounded-full border border-border bg-secondary/60 px-3 py-1 text-xs font-medium text-secondary-foreground"
