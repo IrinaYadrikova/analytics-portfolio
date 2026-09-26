@@ -52,7 +52,7 @@ export const projects: Project[] = [
     workflow: ["Power BI", "Power Automate", "KPI Logic", "Slack"],
   },
   {
-    slug: "environmental-esg-analytics",
+    slug: "manufacturing-esg",
     title: "ENVIRONMENTAL & ESG · PORTFOLIO PROJECT",
     type: "Specialist Analytics",
     technology: ["Power BI", "SQL", "Environmental Data", "ESG"],
