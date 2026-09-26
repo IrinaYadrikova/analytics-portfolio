@@ -10,40 +10,25 @@ export default function ManufacturingESGPage() {
   return (
     <main className="min-h-screen bg-white text-[#10233f]">
 
-      {/* HEADER */}
-      <header className="border-b border-[#dce6ed] bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
-          <div>
-            <Link
-              href="/"
-              className="font-serif text-xl font-semibold text-[#10233f]"
-            >
-              Irina Yadrikova
-            </Link>
-            <p className="mt-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#53677e]">
-              Data Analyst | BI · ESG · Automation
-            </p>
-          </div>
+  {/* BACK */}
 
-          <nav className="hidden items-center gap-7 text-sm md:flex">
-            <Link href="/">Home</Link>
-            <Link href="/#work">Work</Link>
-            <Link href="/#about">About</Link>
-            <Link href="/#contact">Contact</Link>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full border border-[#d5e1ea] px-5 py-2"
-            >
-              LinkedIn ↗
-            </a>
-          </nav>
-        </div>
-      </header>
+  <div className="mx-auto max-w-6xl px-6 pt-8 md:px-10">
 
+    <Link
 
-      {/* HERO */}
+      href="/#work"
+
+      className="text-sm font-medium text-[#1769aa] transition hover:opacity-70"
+
+    >
+
+      ← Back to Selected Work
+
+    </Link>
+
+  </div>
+
+  {/* HERO */}
       <section className="bg-[#f4f9fc]">
         <div className="mx-auto grid max-w-7xl gap-8 px-6 py-10 md:px-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
 
@@ -436,7 +421,14 @@ export default function ManufacturingESGPage() {
               View full project on GitHub →
             </a>
           </div>
-
+<div className="mt-12 border-t border-slate-200 pt-6">
+  <Link
+    href="/#work"
+    className="text-sm font-medium text-[#1769aa] transition hover:opacity-70"
+  >
+    ← Back to Selected Work
+  </Link>
+</div>
         </div>
       </section>
 
