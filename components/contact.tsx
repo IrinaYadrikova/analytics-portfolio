@@ -30,7 +30,7 @@ export function Contact() {
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
-            href={socialLinks.email}
+            href={`mailto:${socialLinks.email}`}
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:shadow-md hover:brightness-110"
           >
             <Mail className="h-4 w-4" />
