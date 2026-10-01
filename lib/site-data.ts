@@ -7,9 +7,9 @@ export const navLinks = [
 
 // Placeholder links — replace with real destinations later.
 export const socialLinks = {
-  linkedin: "https://www.linkedin.com/",
-  github: "https://github.com/",
-  email: "#contact",
+  linkedin: "https://www.linkedin.com/in/irenay/",
+  github: "https://github.com/IrinaYadrikova?tab=repositories",
+  email: "iyadrikova@gmail.com",
 }
 
 export type Project = {
@@ -53,11 +53,11 @@ export const projects: Project[] = [
   },
   {
     slug: "manufacturing-esg",
-    title: "ENVIRONMENTAL & ESG · PORTFOLIO PROJECT",
+    title: "Environmental & ESG Analytics",
     type: "Specialist Analytics",
-    technology: ["Power BI", "SQL", "Environmental Data", "ESG"],
+    technology: ["Power BI", "SQL", "Data Modelling", "ESG Analytics"],
     description:
-      "Analytics solutions exploring emissions, sustainability performance, operational efficiency and environmental KPIs.",
+       "Analytics projects connecting environmental performance with operational data to explore emissions, energy use, waste, sustainability trends and production efficiency, turning ESG metrics into clearer business insight.",
     cta: "View Case Study",
   },
 ]

@@ -12,53 +12,94 @@ const principles = [
     description: "Turn analysis into reporting and processes that support real decisions.",
   },
 ]
-
 export function About() {
+
   return (
-    <section id="about" className="scroll-mt-24 border-t border-border/70">
-      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
+
+    <section
+
+      id="about"
+
+      className="scroll-mt-24 border-t border-border/70 bg-white"
+
+    >
+
+      <div className="mx-auto max-w-6xl px-6 py-12 md:py-14">
+
+        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
+
+          {/* LEFT */}
+
           <div>
+
+            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-accent">
+
+              About My Approach
+
+            </p>
+
             <h2 className="font-display text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
-              Analytics built around business questions, not just dashboards.
+
+              A scientific approach to business analytics
+
             </h2>
-            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
-              <p>
-                My approach to analytics is shaped by my scientific background and PhD research — understanding the
-                problem, testing assumptions, validating evidence and building conclusions that can be supported by the
-                data.
-              </p>
-              <p>
-                I bring that same discipline to business analytics: understanding how the organisation works, defining
-                meaningful measures, checking data quality and translating complex information into reporting people can
-                actually use.
-              </p>
-              <p>
-                The goal isn&apos;t simply to build a dashboard. It&apos;s to create reliable evidence for better
-                decisions.
-              </p>
-            </div>
+
           </div>
 
-          <div className="lg:pt-1">
-            <ul className="divide-y divide-border/70 border-y border-border/70">
-              {principles.map((principle, index) => (
-                <li key={principle.title} className="flex gap-6 py-6 first:pt-0 last:pb-0">
-                  <span className="mt-0.5 font-display text-sm tabular-nums text-accent">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <div>
-                    <h3 className="text-xs font-semibold uppercase tracking-[0.16em] text-foreground">
-                      {principle.title}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{principle.description}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+          {/* RIGHT */}
+
+          <div className="max-w-2xl">
+
+            <p className="text-base leading-relaxed text-muted-foreground">
+
+              My background in environmental engineering and research shaped
+
+              how I approach data: understand the problem, test assumptions and
+
+              validate the evidence before drawing conclusions.
+
+            </p>
+
+            <p className="mt-5 text-base leading-relaxed text-muted-foreground">
+
+              I bring the same discipline to business analytics, combining it
+
+              with practical experience in reporting, data modelling and
+
+              automation to create solutions that people can trust and
+
+              actually use.
+
+            </p>
+
+            <div className="mt-8 border-t border-border/70 pt-6">
+
+              <p className="font-display text-xl font-semibold text-foreground">
+
+                From evidence to practical decisions
+
+              </p>
+
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+
+                My focus is not simply on building dashboards, but on creating
+
+                reliable analytics that help businesses understand performance,
+
+                identify opportunities and make better-informed decisions.
+
+              </p>
+
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
   )
+
 }
