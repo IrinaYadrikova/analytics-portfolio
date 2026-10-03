@@ -1,10 +1,11 @@
 import { ArrowRight } from "lucide-react"
-import { HeroVisual } from "@/components/hero-visual"
+
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section id="home" className="scroll-mt-24">
-      <div className="mx-auto grid max-w-6xl items-center gap-14 px-6 py-16 md:grid-cols-[1.05fr_0.95fr] md:py-24 lg:py-28">
+      <div className="mx-auto grid max-w-6xl items-center gap-14 px-6 py-10 md:py-12 md:grid-cols-[0.95fr_1.05fr] md:py-24 lg:py-28">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             Data Analysis · Business Insights · Real Impact
@@ -35,8 +36,25 @@ export function Hero() {
             </a>
           </div>
         </div>
+<div className="overflow-hidden rounded-[28px] border border-[#d8e4ec] bg-white shadow-sm">
 
-        <HeroVisual />
+  <Image
+
+    src="/hero-analytics-workflow.png"
+
+    alt="Analytics workflow showing data sources, data modelling, KPIs, Power BI reporting and automation"
+
+    width={1536}
+
+    height={1024}
+
+    className="h-auto w-full"
+
+    priority
+
+  />
+
+</div>
       </div>
     </section>
   )

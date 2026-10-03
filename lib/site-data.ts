@@ -41,15 +41,24 @@ export const projects: Project[] = [
       "A multi-phase analytics transformation covering management reporting, enquiry conversion, customer behaviour, sales performance and commercial forecasting.",
     cta: "View Case Study",
   },
-  {
+   {
+
     slug: "automated-kpi-alerts",
+
     title: "Sales Performance & Automated KPI Alerts",
+
     type: "SALES AUTOMATION · COMMERCIAL PROJECT",
-    
+
+    technology: ["Power BI", "Power Automate", "KPI Logic", "Slack"],
+
     description:
+
       "An automated performance monitoring solution that evaluates individual sales KPIs and sends personalised notifications alongside a management summary.",
+
     cta: "View Case Study",
+
     workflow: ["Power BI", "Power Automate", "KPI Logic", "Slack"],
+
   },
   {
     slug: "manufacturing-esg",
@@ -60,7 +69,55 @@ export const projects: Project[] = [
        "Analytics projects connecting environmental performance with operational data to explore emissions, energy use, waste, sustainability trends and production efficiency, turning ESG metrics into clearer business insight.",
     cta: "View Case Study",
   },
+  {
+
+    slug: "saas-customer-revenue",
+
+    title: "SaaS Customer & Revenue Intelligence",
+
+    type: "SAAS ANALYTICS · PORTFOLIO PROJECT",
+
+    technology: ["Power BI", "DAX", "Star Schema", "SQL", "Cohort Analysis"],
+
+    description:
+
+      "An end-to-end analytics project exploring recurring revenue, customer behaviour, churn, retention, lifetime value and product performance for a subscription-based SaaS business.",
+
+    cta: "View Case Study",
+
+  },
+  {
+
+    slug: "microsoft-fabric-analytics-pipeline",
+
+    title: "Microsoft Fabric Analytics Pipeline",
+
+    type: "DATA ENGINEERING · PORTFOLIO PROJECT",
+
+    technology: [
+
+      "Microsoft Fabric",
+
+      "Data Pipelines",
+
+      "Dataflow Gen2",
+
+      "Lakehouse",
+
+      "SQL",
+
+    ],
+
+    description:
+
+      "An end-to-end data engineering project bringing together CRM, ERP and target data through automated ingestion, transformation, validation and a medallion architecture for analytics-ready reporting.",
+
+    cta: "View Case Study",
+
+  },
+
 ]
+
 
 export const processSteps = [
   { number: "01", title: "Understand", detail: "Business question" },
