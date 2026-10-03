@@ -1,8 +1,30 @@
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
+
+
 export default function MicrosoftFabricAnalyticsPipelinePage() {
 
   return (
 
     <main>
+
+      <div className="mx-auto max-w-6xl px-6 pt-8 pb-6">
+
+        <Link
+
+          href="/#work"
+
+          className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+
+        >
+
+          <ArrowLeft className="h-4 w-4" />
+
+          Back to Selected Work
+
+        </Link>
+
+      </div>
 
       {/* FABRIC DATA ENGINEERING PROJECT */}
 

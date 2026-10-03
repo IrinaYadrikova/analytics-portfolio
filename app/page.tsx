@@ -1,7 +1,7 @@
 import { SiteNav } from "@/components/site-nav"
 import { Hero } from "@/components/hero"
 import { SelectedWork } from "@/components/selected-work"
-import { LiveAnalytics } from "@/components/live-analytics"
+
 import { HowIWork } from "@/components/how-i-work"
 import { About } from "@/components/about"
 import { Contact } from "@/components/contact"
@@ -14,7 +14,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <SelectedWork />
-        <LiveAnalytics />
+        
         <HowIWork />
         <About />
         <Contact />
