@@ -116,7 +116,6 @@ export const projects: Project[] = [
     cta: "View Case Study",
 
   },
-  ,
 
 ]
 

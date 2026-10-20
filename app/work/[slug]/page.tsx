@@ -6,7 +6,25 @@ import { SiteFooter } from "@/components/site-footer"
 import { projects } from "@/lib/site-data"
 
 export function generateStaticParams() {
-  return projects.map((project) => ({ slug: project.slug }))
+
+  return projects
+
+    .filter(
+
+      (project) =>
+
+        typeof project.slug === "string" &&
+
+        project.slug.trim().length > 0
+
+    )
+
+    .map((project) => ({
+
+      slug: project.slug,
+
+    }))
+
 }
 
 export default async function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
