@@ -24,6 +24,36 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+
+    slug: "microsoft-fabric-analytics-pipeline",
+
+    title: "Microsoft Fabric — Data Pipeline & Monitoring",
+
+    type: "DATA ENGINEERING · PORTFOLIO PROJECT",
+
+    technology: [
+
+      "Microsoft Fabric",
+
+      "Azure SQL",
+
+      " PySpark",
+
+      "Delta Lake",
+
+      "Power BI",
+
+    ],
+
+    description:
+
+      "An end-to-end Microsoft Fabric solution integrating ERP, CRM and business data through incremental ingestion, medallion architecture, automated validation and execution logging, with a Power BI dashboard for monitoring pipeline reliability.",
+
+    cta: "View Case Study",
+
+  },
+  
+  {
     slug: "international-sales-kpi-reporting",
     title: "International Sales Performance & KPI Reporting",
     type: "INTERNATIONAL SALES · COMMERCIAL PROJECT",
@@ -86,35 +116,7 @@ export const projects: Project[] = [
     cta: "View Case Study",
 
   },
-  {
-
-    slug: "microsoft-fabric-analytics-pipeline",
-
-    title: "Microsoft Fabric Analytics Pipeline",
-
-    type: "DATA ENGINEERING · PORTFOLIO PROJECT",
-
-    technology: [
-
-      "Microsoft Fabric",
-
-      "Data Pipelines",
-
-      "Dataflow Gen2",
-
-      "Lakehouse",
-
-      "SQL",
-
-    ],
-
-    description:
-
-      "An end-to-end data engineering project bringing together CRM, ERP and target data through automated ingestion, transformation, validation and a medallion architecture for analytics-ready reporting.",
-
-    cta: "View Case Study",
-
-  },
+  ,
 
 ]
 

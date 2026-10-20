@@ -62,17 +62,11 @@ export function About() {
 
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
 
-              I bring the same discipline to business analytics, combining it
-
-              with practical experience in reporting, data modelling and
-
-              automation to create solutions that people can trust and
-
-              actually use.
+              I apply the same discipline to business analytics, drawing on hands-on experience delivering reporting solutions, developing data models, defining business KPIs and automating workflows. My focus is on creating reliable solutions that people can trust and use to make decisions.
 
             </p>
 
-            <div className="mt-8 border-t border-border/70 pt-6">
+            <div className="mt-10 border-t border-border/70 pt-8">
 
               <p className="font-display text-xl font-semibold text-foreground">
 
@@ -80,13 +74,9 @@ export function About() {
 
               </p>
 
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              <p className="mt-5 text-base leading-relaxed text-muted-foreground">
 
-                My focus is not simply on building dashboards, but on creating
-
-                reliable analytics that help businesses understand performance,
-
-                identify opportunities and make better-informed decisions.
+                I work across the analytics process, from understanding business requirements and assessing data quality to developing reporting solutions and communicating insights. The goal is to make complex information easier to understand and translate it into practical business decisions.
 
               </p>
 
